@@ -2,12 +2,12 @@ import React from "react";
 
 const Resume = () => {
   return (
-    <div className="max-w-4xl mx-auto p-10 bg-white shadow-lg rounded-xl mt-10 text-gray-900">
+    <div className="max-w-4xl mx-auto p-10 bg-white shadow-lg rounded-xl  text-gray-900">
       
       {/* Header */}
       <div className="flex flex-col md:flex-row justify-between">
         <div>
-          <h1 className="text-3xl font-bold">Kuldeep Gupta</h1>
+          <h1 className="font-bold">Kuldeep Gupta</h1>
 
           <p className="text-blue-600 underline mt-1">
             <a href="https://github.com/kuldeep12309" target="_blank">GitHub</a> |
@@ -25,7 +25,7 @@ const Resume = () => {
 
       {/* EDUCATION */}
       <section className="mb-6">
-        <h2 className="text-xl font-semibold border-b pb-1">EDUCATION</h2>
+        <h3 className="font-semibold border-b pb-1">EDUCATION</h3>
 
         <div className="flex justify-between mt-2">
           <p><strong>Bachelor of Commerce (B.Com)</strong></p>
@@ -35,7 +35,7 @@ const Resume = () => {
 
       {/* SKILLS SUMMARY */}
       <section className="mb-6">
-        <h2 className="text-xl font-semibold border-b pb-1">SKILLS SUMMARY</h2>
+        <h3 className="font-semibold border-b pb-1">SKILLS SUMMARY</h3>
 
         <ul className="list-disc list-inside mt-2 space-y-1">
           <li><strong>Languages:</strong> HTML5, CSS3, JavaScript (ES6+), Python</li>
@@ -50,11 +50,11 @@ const Resume = () => {
 
       {/* WORK EXPERIENCE */}
       <section className="mb-6">
-        <h2 className="text-xl font-semibold border-b pb-1">WORK EXPERIENCE</h2>
+        <h3 className="font-semibold border-b pb-1">WORK EXPERIENCE</h3>
 
         <div className="mt-3">
           <div className="flex justify-between">
-            <h3 className="font-bold">Full Stack Developer (Trainee) — Universal CodeBox</h3>
+            <h4 className="font-bold">Full Stack Developer (Trainee) — Universal CodeBox</h4>
             <p>April 2024 – Present</p>
           </div>
 
@@ -71,33 +71,33 @@ const Resume = () => {
 
       {/* PROJECTS */}
       <section className="mb-6">
-        <h2 className="text-xl font-semibold border-b pb-1">PROJECTS</h2>
+        <h3 className="font-semibold border-b pb-1">PROJECTS</h3>
 
         <div className="mt-3 space-y-4">
 
           <div>
-            <h3 className="font-semibold">1. E-Commerce Website (React + Redux Toolkit)</h3>
+            <h4 className="font-semibold">1. E-Commerce Website (React + Redux Toolkit)</h4>
             <p className="ml-6 text-gray-700">
               Developed an e-commerce app using React, Redux Toolkit and REST API. Deployed on Vercel.
             </p>
           </div>
 
           <div>
-            <h3 className="font-semibold">2. Portfolio Website (React + Animations)</h3>
+            <h4 className="font-semibold">2. Portfolio Website (React + Animations)</h4>
             <p className="ml-6 text-gray-700">
               Built a modern personal portfolio with smooth UI and animations using React.
             </p>
           </div>
 
           <div>
-            <h3 className="font-semibold">3. E-Commerce (React + Django REST + MySQL)</h3>
+            <h4 className="font-semibold">3. E-Commerce (React + Django REST + MySQL)</h4>
             <p className="ml-6 text-gray-700">
               Full-stack project with product APIs, cart system, and MySQL backend.
             </p>
           </div>
 
           <div>
-            <h3 className="font-semibold">4. REST API Project (DRF + MYSQL)</h3>
+            <h4 className="font-semibold">4. REST API Project (DRF + MYSQL)</h4>
             <p className="ml-6 text-gray-700">
               Built CRUD APIs using Django REST Framework and MYSQL database.
             </p>
@@ -108,7 +108,7 @@ const Resume = () => {
 
       {/* CERTIFICATES */}
       <section className="mb-6">
-        <h2 className="text-xl font-semibold border-b pb-1">CERTIFICATES</h2>
+        <h3 className="font-semibold border-b pb-1">CERTIFICATES</h3>
 
         <ul className="list-disc list-inside mt-2 space-y-1">
           <li>Full Stack Developer Internship – Universal CodeBox</li>
