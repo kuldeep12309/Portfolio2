@@ -71,7 +71,7 @@ const Home = () => {
           <motion.img
             src={kuldeep}
             alt="Kuldeep Gupta"
-            className="w-76 h-76  rounded-full object-cover hover:scale-110 transition-transform duration-300"
+            className="w-64 h-64 sm:w-76 sm:h-76 rounded-full object-cover hover:scale-110 transition-transform duration-300"
           />
 
           <h4 className="m-4 text-green-600 italic text-2xl md:text-3xl font-semibold">
